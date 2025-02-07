@@ -102,7 +102,7 @@ shoesDescriptionData = {
     "shoeCalification":calificationList
 }
 
-shoesDescdf = pd.DataFrame()
+shoesDescdf = pd.DataFrame(shoesDescriptionData)
 shoesDescdf.index = range(1, len(textDescriptionList) + 1)
 
 excelName = "shoesDescriptionRawDataExcel.xlsx"
